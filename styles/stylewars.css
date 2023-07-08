@@ -139,4 +139,10 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
+    .rodape{
+        font-size: 1.4rem;
+    }
+    .contato__footer{
+        font-size: 0.9rem;
+    }
 }
