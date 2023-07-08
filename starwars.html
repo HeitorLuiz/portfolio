@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/starwars.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/stylewars.css">
+    <title>Star Wars Mode</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
+            <a class="star__wars__link" href="starwars.html">Star Wars Mode</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Front-end: Episodio iV - Uma nova esperanca</h1>
+            <p class="apresentacao__conteudo__texto">
+                Ha muito tempo atras em uma galaxia muito, muito distante....
+            </p>
+            <p class="apresentacao__conteudo__texto">
+                Um jovem Padawan, apaixonado por tecnologia, estudava avidamente para criar um site
+                sobre o seu planeta natal, para que todos os milhoes de viajantes visitantes e os moradores dos planetas vizinhos conhecessem melhor o seu planeta, e
+                mostrar a todos tudo que seu planeta tem de bom a oferecer.</p>
+            <p class="apresentacao__conteudo__texto">
+                Logo, ele tratou de estudar HTML5, CSS e JavaScript, e em posse
+                do conhecimento disso tudo ele comecou uma jornada com muitos desafios pela frente, sabendo que sera necessario tambem aprender outras ferramentas,
+                e se aprimorar cada vez mais, ate se tornar um desenvolvedor Jedi e conseguir atingir o seu objetivo.
+            </p>
+        </section>
+            <div class="depoimentos__link">
+                <h2 class="depoimento__titulo"> Depoimentos </h2>
+                <p class="depoimento__paragrafo">(Clique duas vezes para escutar)</p>
+                <audio id="audio" src="assets/vader.mp3"></audio>
+                <audio id="audio2" src="assets/kenobi.mp3"></audio>
+                <audio id="audio3" src="assets/yoda.mp3"></audio>
+                <audio id="audio4" src="assets/chewbacca.mp3"></audio>
+
+                <button type="button" onclick="audio()" id="vader"> <img src="./assets/vader.png" alt="Foto do Darth Vader" height="150" width="150"><h3 class="nome__personagem">Darth Vader</h3></button>
+                <button type="button" onclick="audio2()" id="kenobi"> <img src="./assets/benkenobi.png" alt="Foto do Ben Kenobi" height="150" width="150"><h3 class="nome__personagem">Ben Kenobi</h3></button>
+                <button type="button" onclick="audio3()" id="yoda"> <img src="./assets/yoda.png" alt="Foto do Mestre Yoda" height="150" width="150"><h3  class="nome__personagem">Mestre yoda</h3></button>
+                <button type="button" onclick="audio4()" id="chewbacca"> <img src="./assets/chewbacca.png" alt="Foto do Chewbacca" height="150" width="150"><h3 class="nome__personagem">Chewbacca</h3></button>
+            </div>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Heitor Luiz.</p>
+        <p class="contato__footer">Contato: heitor.2100@gmail.com</p>
+    </footer>
+    <script src="./js/starwars.js"> </script>
+</body>
+</html>
